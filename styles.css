@@ -1,0 +1,240 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Type Selectors */
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #23263a;
+}
+
+header {
+  height: 550px;
+  margin-bottom: 50px;
+  padding-top: 100px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #ff4a57;
+}
+
+a:visited {
+  color: #ff4a57;
+}
+
+h1 {
+  margin: 30px;
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #ff4a57;
+}
+
+h2 {
+  margin: 30px;
+  font-weight: 500;
+  text-decoration: underline;
+  margin-bottom: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #ff4a57;
+}
+
+p {
+  color: #dee4df;
+  margin: 30px;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #212336;
+  height: 170px;
+}
+
+/* Class Selectors */
+
+.header-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.header-right {
+  height: 250px;
+  width: 600px;
+  padding-top: 40px;
+  line-height: 1.5;
+}
+
+.CV {
+  list-style-type: none;
+  margin: 30px;
+}
+
+.profile-picture {
+  width: 200px;
+  margin: 30px;
+  margin-top: 10px;
+  border-radius: 100px;
+  border: 3px solid #ff4a57;
+  /* filter: grayscale(65%); */
+}
+
+.tech-stack-list {
+  list-style: none;
+  font-size: large;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.tech-stack-list-item {
+  background-color: #ff4a57;
+  color: white;
+  padding: 5px 10px;
+}
+
+.interests {
+  height: 300px;
+  width: 500px;
+}
+
+.tech-and-interests {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row-reverse;
+  justify-content: center;
+  padding: 200px 50px 50px 50px;
+}
+
+.socials-heading {
+  text-align: center;
+  margin: 40px;
+  margin-top: 100px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0px 50px 50px 50px;
+}
+
+.github-card {
+  height: 250px;
+  width: 250px;
+  background-color: #212438;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+
+.github-card:hover {
+  background-color: #ff4a57;
+  border: none;
+}
+
+.linkedin-card {
+  height: 250px;
+  width: 250px;
+  background-color: #212438;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+
+.linkedin-card:hover {
+  background-color: #ff4a57;
+  border: none;
+}
+
+.xing-card {
+  height: 250px;
+  width: 250px;
+  background-color: #212438;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+
+.xing-card:hover {
+  background-color: #ff4a57;
+  border: none;
+}
+
+.github {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.linkedin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.xing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  position: fixed;
+  top: 15px;
+  right: 20px;
+}
+
+.edu-heading {
+  text-align: center;
+  padding: 200px 50px 50px 50px;
+}
+
+.footer-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 80px;
+  gap: 250px;
+  color: white;
+}
+
+.footer-impressum:hover {
+  color: #ff4a57;
+}
+
+.footer-datenschutz:hover {
+  color: #ff4a57;
+}
+
+.footer-cookies:hover {
+  color: #ff4a57;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 35px;
+}
+
+/* Pseudo Classes */
