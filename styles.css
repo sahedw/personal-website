@@ -12,9 +12,11 @@ body {
 }
 
 header {
-  height: 550px;
-  margin-bottom: 50px;
-  padding-top: 100px;
+  background-color: #23263a;
+  display: flex;
+  flex-wrap: wrap;
+  height: 800px;
+  padding-top: 200px;
 }
 
 a {
@@ -47,6 +49,7 @@ h2 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: #ff4a57;
+  text-decoration: none;
 }
 
 p {
@@ -64,13 +67,13 @@ footer {
 
 .header-div {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   gap: 40px;
+  margin-bottom: 200px;
 }
 
 .header-right {
-  height: 250px;
   width: 600px;
   padding-top: 40px;
   line-height: 1.5;
@@ -85,7 +88,7 @@ footer {
   width: 200px;
   margin: 30px;
   margin-top: 10px;
-  border-radius: 100px;
+  border-radius: 5px;
   border: 3px solid #ff4a57;
   /* filter: grayscale(65%); */
 }
@@ -98,25 +101,27 @@ footer {
   gap: 10px;
   margin-left: 30px;
   margin-top: 30px;
+  width: 400px;
 }
 
 .tech-stack-list-item {
   background-color: #ff4a57;
+  border-radius: 5px;
   color: white;
   padding: 5px 10px;
 }
 
 .interests {
+  width: 400px;
   height: 300px;
-  width: 500px;
 }
 
 .tech-and-interests {
+  background-color: #23263a;
   display: flex;
   flex-wrap: nowrap;
-  flex-direction: row-reverse;
   justify-content: center;
-  padding: 200px 50px 50px 50px;
+  padding: 250px;
 }
 
 .socials-heading {
@@ -127,6 +132,7 @@ footer {
 
 .socials {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
   padding: 0px 50px 50px 50px;
@@ -198,8 +204,9 @@ footer {
 .nav-list {
   list-style-type: none;
   display: flex;
+  flex-direction: column;
   justify-content: flex-end;
-  gap: 20px;
+  gap: 35px;
   position: fixed;
   top: 15px;
   right: 20px;
