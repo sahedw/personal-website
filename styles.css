@@ -15,7 +15,7 @@ header {
   background-color: #23263a;
   display: flex;
   flex-wrap: wrap;
-  height: 800px;
+  height: 1000px;
   padding-top: 200px;
 }
 
@@ -93,6 +93,10 @@ footer {
   /* filter: grayscale(65%); */
 }
 
+.tech-stack {
+  height: 800px;
+}
+
 .tech-stack-list {
   list-style: none;
   font-size: large;
@@ -121,13 +125,15 @@ footer {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-  padding: 250px;
+}
+
+.socials-div {
+  height: 800px;
 }
 
 .socials-heading {
   text-align: center;
   margin: 40px;
-  margin-top: 100px;
 }
 
 .socials {
