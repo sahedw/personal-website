@@ -93,10 +93,6 @@ footer {
   /* filter: grayscale(65%); */
 }
 
-.tech-stack {
-  height: 800px;
-}
-
 .tech-stack-list {
   list-style: none;
   font-size: large;
@@ -125,10 +121,15 @@ footer {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
+  height: 800px;
+  padding-top: 200px;
+  margin-bottom: 200px;
 }
 
 .socials-div {
   height: 800px;
+  padding-top: 200px;
+  margin-bottom: 200px;
 }
 
 .socials-heading {
@@ -141,7 +142,6 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
-  padding: 0px 50px 50px 50px;
 }
 
 .github-card {
@@ -215,6 +215,11 @@ footer {
   position: fixed;
   top: 15px;
   right: 20px;
+}
+
+.education-work {
+  height: 800px;
+  padding-top: 200px;
 }
 
 .edu-heading {
